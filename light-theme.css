@@ -1,0 +1,54 @@
+:root {
+  --ink: #18232d;
+  --muted: #6f7d83;
+  --line: #d9e3e2;
+  --paper: #f8fbf8;
+  --acid: #a9e943;
+  --blue: #5d9de8;
+}
+
+body { background: var(--paper); color: var(--ink); }
+.nav { border-bottom-color: var(--line); }
+.brand-mark, .brand-dot { color: #8fce2b; }
+.nav-links { color: #627178; }
+.nav-links a:hover, .text-link:hover, .arrow-link:hover { color: #6eaa18; }
+.button { background: var(--acid); color: #17200f; }
+.button:hover { background: #c6f76a; }
+.eyebrow, .section-kicker, .visual-label { color: #718087; }
+.pulse { background: #91ce2d; box-shadow: 0 0 0 5px #a9e94330; }
+.hero h1 em, .contact h2 em { color: #87c522; }
+.hero-lede { color: #5f6e75; }
+.orbit { border-color: #b9cacb; }
+.core { background: radial-gradient(circle at 35% 30%, #dffb9c, #9fce42 45%, #d8e9b8 73%); box-shadow: 0 0 75px #a9e94355; }
+.core span { color: #3e5d18; }
+.node { background: #a2df3b; box-shadow: 0 0 18px #a9e94399; }
+.node-c { background: var(--blue); box-shadow: 0 0 18px #5d9de866; }
+.node-d { background: #bb79d6; box-shadow: 0 0 18px #bb79d666; }
+.signal-bar { background: #edf3ef; }
+.signal-inner { color: #718087; }
+.section h2 span { color: #728188; }
+.large-copy, .section-heading p, .industry-head p { color: #5e6d74; }
+.arrow-link { color: #6eaa18; }
+.cap-card { background: #fff; border-color: #d8e3e1; box-shadow: 0 8px 25px #8aa39b12; }
+.cap-card:hover { border-color: #9ebb75; }
+.cap-feature { background: linear-gradient(150deg, #eff9df, #f8fcf4); }
+.card-number { color: #7b8b88; }
+.card-icon { color: #83b924; }
+.cap-card p { color: #65747a; }
+.cap-card a { color: #6eaa18; }
+.method { background: #e8f0eb; }
+.method .section-kicker { color: #6f8177; }
+.method h2 span { color: #81978c; }
+.path, .path-step { border-color: #b9cac0; }
+.path-step strong { color: #71857a; }
+.path-step p { color: #667b71; }
+.industry-list { border-color: var(--line); }
+.industry-list span { color: #718087; }
+.industry-list b { color: #78b218; }
+.contact { background: #edf7e7; border: 1px solid #d7e7cc; }
+.contact .section-kicker { color: #6f8173; }
+.contact p { color: #61736a; }
+.button-light { background: #fff; }
+.contact-orb { border-color: #a9d66a66; box-shadow: 0 0 0 90px #a9e9430d, 0 0 0 180px #a9e94308; }
+.footer { color: #718087; }
+.footer .brand { color: var(--ink); }
