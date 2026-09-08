@@ -52,3 +52,23 @@ body { background: var(--paper); color: var(--ink); }
 .contact-orb { border-color: #a9d66a66; box-shadow: 0 0 0 90px #a9e9430d, 0 0 0 180px #a9e94308; }
 .footer { color: #718087; }
 .footer .brand { color: var(--ink); }
+.team-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 38px; }
+.team-heading p { font-size: 19px; line-height: 1.65; color: #5e6d74; margin: 3px 0 28px; max-width: 480px; }
+.team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 68px; }
+.person-card { background: #fff; border: 1px solid #d8e3e1; padding: 16px; box-shadow: 0 8px 25px #8aa39b12; }
+.person-photo { height: 300px; display: grid; place-items: center; position: relative; overflow: hidden; background: linear-gradient(145deg, #e9f4d5, #f5f8f5); }
+.person-photo::before { content: ""; position: absolute; width: 220px; height: 220px; border: 1px solid #a9d66a66; border-radius: 50%; transform: rotate(-25deg); }
+.person-photo::after { content: ""; position: absolute; width: 150px; height: 150px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #dffb9c, #9fce42 48%, #d8e9b8 75%); box-shadow: 0 0 60px #a9e94355; }
+.person-photo span { position: relative; z-index: 1; font-size: 40px; font-weight: 800; color: #3e5d18; }
+.photo-tolunay { background: linear-gradient(145deg, #e7f0fb, #f5f8f5); }
+.photo-tolunay::before { border-color: #9fc2e866; }
+.photo-tolunay::after { background: radial-gradient(circle at 35% 30%, #c4dcfb, #78aadd 48%, #e1eefa 75%); box-shadow: 0 0 60px #8dbdf855; }
+.photo-tolunay span { color: #315a83; }
+.person-meta { display: flex; justify-content: space-between; align-items: start; gap: 20px; padding: 20px 4px 8px; }
+.person-meta h3 { font-size: 22px; letter-spacing: -.8px; margin: 0 0 7px; }
+.person-meta p { color: #6eaa18; font: 500 10px 'DM Mono', monospace; letter-spacing: 1px; text-transform: uppercase; margin: 0; }
+.person-meta > a { color: #78b218; font-size: 22px; }
+.person-email { display: block; color: #718087; font-size: 12px; padding: 0 4px 8px; }
+.person-email:hover { color: #6eaa18; }
+.contact-links { position: relative; display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+@media(max-width:760px){.team-heading{grid-template-columns:1fr;gap:25px}.team-grid{grid-template-columns:1fr;margin-top:45px}.person-photo{height:260px}.contact-links{flex-direction:column;align-items:center}.contact-links .button{width:min(100%,280px);justify-content:space-between}}
