@@ -1,4 +1,6 @@
 .brand img{display:block;width:158px;height:auto;max-height:62px;object-fit:contain}
+.hero{grid-template-columns:1fr}.hero-copy{max-width:760px}
+.person-photo img{object-fit:contain!important;padding:10px}
 .demo-section{padding-top:120px}
 .demo-heading{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:38px}
 .demo-feature{display:grid;grid-template-columns:1.35fr .65fr;gap:32px;margin-top:74px;align-items:stretch}
