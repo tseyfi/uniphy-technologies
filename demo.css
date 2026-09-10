@@ -1,0 +1,25 @@
+.brand img{display:block;width:158px;height:auto;max-height:62px;object-fit:contain}
+.demo-section{padding-top:120px}
+.demo-heading{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:38px}
+.demo-feature{display:grid;grid-template-columns:1.35fr .65fr;gap:32px;margin-top:74px;align-items:stretch}
+.demo-photo-wrap{position:relative;min-height:390px;overflow:hidden;background:#dfe9e4}
+.demo-photo-wrap img{width:100%;height:100%;min-height:390px;display:block;object-fit:cover;object-position:center}
+.photo-tag{position:absolute;left:18px;bottom:18px;padding:9px 12px;background:#18232dcc;color:#f8fbf8;font:500 10px 'DM Mono',monospace;letter-spacing:1.1px}
+.demo-copy{display:flex;flex-direction:column;justify-content:center;padding:34px;background:#e8f0eb;border:1px solid #d3dfd8}
+.demo-caption{font-size:29px;font-weight:700;line-height:1.1;letter-spacing:-1.2px;color:var(--ink)}
+.demo-copy p{color:#5e6d74;line-height:1.65;font-size:14px;margin:22px 0 28px}
+.demo-flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:#517062;font:500 10px 'DM Mono',monospace;text-transform:uppercase}
+.demo-flow b{color:#78b218;font-size:17px}
+.demo-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.demo-benefits>div{padding:24px 25px 28px;border:1px solid #d8e3e1;background:#fff}
+.demo-benefits strong{font:500 11px 'DM Mono',monospace;color:#78b218}
+.demo-benefits h3{font-size:20px;letter-spacing:-.6px;margin:28px 0 10px}
+.demo-benefits p{font-size:13px;color:#65747a;line-height:1.55;margin:0}
+.roadmap-title{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-top:105px;border-bottom:1px solid #d8e3e1;padding-bottom:20px}
+.roadmap-title p{max-width:390px;color:#65747a;font-size:14px;line-height:1.5;margin:0}
+.roadmap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.roadmap-grid article{padding:26px;background:#fff;border:1px solid #d8e3e1;min-height:245px}
+.roadmap-grid article>span{font:500 10px 'DM Mono',monospace;color:#78b218;letter-spacing:1px}
+.roadmap-grid h3{font-size:22px;line-height:1.12;letter-spacing:-.8px;margin:32px 0 12px}
+.roadmap-grid p{font-size:13px;line-height:1.55;color:#65747a;margin:0}
+@media(max-width:760px){.brand img{width:132px}.demo-heading,.demo-feature{grid-template-columns:1fr;gap:25px}.demo-feature{margin-top:45px}.demo-photo-wrap,.demo-photo-wrap img{min-height:255px}.demo-copy{padding:25px}.demo-benefits,.roadmap-grid{grid-template-columns:1fr}.roadmap-title{display:block;margin-top:70px}.roadmap-title p{margin-top:15px}}
