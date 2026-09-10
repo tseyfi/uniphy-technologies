@@ -24,4 +24,5 @@
 .roadmap-grid article>span{font:500 10px 'DM Mono',monospace;color:#78b218;letter-spacing:1px}
 .roadmap-grid h3{font-size:22px;line-height:1.12;letter-spacing:-.8px;margin:32px 0 12px}
 .roadmap-grid p{font-size:13px;line-height:1.55;color:#65747a;margin:0}
+.research-teaser{padding-top:120px}.research-teaser-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:38px;align-items:end}.research-teaser-grid h2{font-size:clamp(42px,5vw,70px);line-height:1;letter-spacing:-3px;margin:0}.research-teaser-grid h2 span{color:#79ad24}.research-teaser-grid .large-copy{margin:0 0 26px}
 @media(max-width:760px){.brand img{width:132px}.demo-heading,.demo-feature{grid-template-columns:1fr;gap:25px}.demo-feature{margin-top:45px}.demo-photo-wrap,.demo-photo-wrap img{min-height:255px}.demo-copy{padding:25px}.demo-benefits,.roadmap-grid{grid-template-columns:1fr}.roadmap-title{display:block;margin-top:70px}.roadmap-title p{margin-top:15px}}
